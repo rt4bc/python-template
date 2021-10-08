@@ -1,6 +1,6 @@
 [tool.black]
-line-length = 79
-experimental-string-processing = true
+line-length = 88
+# experimental-string-processing = true
 include = '\.pyi?$'
 exclude = '''
 /(

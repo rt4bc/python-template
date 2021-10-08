@@ -15,9 +15,7 @@ class MyWidget(QtWidgets.QWidget):
         super().__init__()
 
         self.button = QtWidgets.QPushButton("Click Me!")
-        self.text = QtWidgets.QLabel(
-            "Hello World!", alignment=QtCore.Qt.AlignCenter
-        )
+        self.text = QtWidgets.QLabel("Hello World!", alignment=QtCore.Qt.AlignCenter)
         self.layout = QtWidgets.QVBoxLayout(self)
         self.layout.addWidget(self.text)
         self.layout.addWidget(self.button)
@@ -30,10 +28,7 @@ class MyWidget(QtWidgets.QWidget):
 
 
 if __name__ == "__main__":
-    a_long_str = (
-        "a very long long long"
-        " ###################################################### comment ....."
-    )
+
     app = QtWidgets.QApplication(sys.argv)
 
     widget = MyWidget()
