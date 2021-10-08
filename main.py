@@ -6,7 +6,8 @@
 ######################################################
 
 import sys
-from PySide6 import QtCore, QtWidgets, QtGui
+
+from PySide6 import QtCore, QtGui, QtWidgets
 
 
 class MyWidget(QtWidgets.QWidget):
@@ -29,6 +30,10 @@ class MyWidget(QtWidgets.QWidget):
 
 
 if __name__ == "__main__":
+    a_long_str = (
+        "a very long long long"
+        " ###################################################### comment ....."
+    )
     app = QtWidgets.QApplication(sys.argv)
 
     widget = MyWidget()
