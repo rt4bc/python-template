@@ -1,9 +1,8 @@
 #!/usr/bin/env python
-
-######################################################
-# python code template
-# pyside6 basic application with css decoration
-######################################################
+"""
+python code template
+pyside6 basic application with css decoration
+"""
 
 import sys
 
